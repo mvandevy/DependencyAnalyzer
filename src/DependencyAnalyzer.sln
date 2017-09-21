@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analysis.Nuget", "Analysis.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analysis.Core", "Analysis.Core\Analysis.Core.csproj", "{9269CE90-D016-471F-9378-5A6D1C5715E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.VstsExtensionLog", "Serilog.Sinks.VstsExtensionLog\Serilog.Sinks.VstsExtensionLog.csproj", "{2E136604-6275-4330-A025-EAC0FA55F2F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9269CE90-D016-471F-9378-5A6D1C5715E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9269CE90-D016-471F-9378-5A6D1C5715E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9269CE90-D016-471F-9378-5A6D1C5715E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E136604-6275-4330-A025-EAC0FA55F2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E136604-6275-4330-A025-EAC0FA55F2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E136604-6275-4330-A025-EAC0FA55F2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E136604-6275-4330-A025-EAC0FA55F2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
